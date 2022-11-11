@@ -1,11 +1,17 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import * as styles from "../components/index.module.css";
 
 const projects = [
+  {
+    text: "Spinning Donut",
+    url: "https://github.com/B-Salinas/spinning-donut",
+    description:
+      "Used Python, Pygame, and Linear Algebra to display a 2D rendering of a spinning torus using ASCII. Purely for fun.",
+  },
   {
     text: "Yu-Gi-Oh! GX Duel Academy Deck Builder",
     url: "https://github.com/B-Salinas/YGO-Duel-Academy-Deck-Builder",
@@ -30,16 +36,16 @@ const projects = [
     description:
       'Allows users to share and discover experiences from different culinary adventures. Veni Vidi Voravi stands for "I came, I saw, I devoured".',
   },
-]
+];
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`;
 
 const Projects = () => (
   <Layout>
     <h1>Projects</h1>
     <p>All of my projects, found in one place.</p>
     <ul className={styles.list}>
-      {projects.map(link => (
+      {projects.map((link) => (
         <li key={link.url} className={styles.listItem}>
           <a
             className={styles.listItemLink}
@@ -54,8 +60,8 @@ const Projects = () => (
     <br />
     <Link to="/">Home</Link>
   </Layout>
-)
+);
 
-export const Head = () => <Seo title="Projects" />
+export const Head = () => <Seo title="Projects" />;
 
-export default Projects
+export default Projects;
