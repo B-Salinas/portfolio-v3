@@ -27,12 +27,11 @@ const introLinks = [
     text: "@",
     url: "mailto:b.salinas397@gmail.com",
   },
-  // {
-  //   text: "Resume",
-  //   url: "",
-  //   // how to open a pdf in a new tab silently
-  // },
-]
+  {
+    text: "Resume (Google Doc)",
+    url: "https://docs.google.com/document/d/1tlmk7AwTIvdqatvG3NQtbGvplOkeWa_lBR_bnFkh_dw/edit?usp=sharing",
+  },
+];
 
 const navLinks = [
   {

@@ -4,21 +4,6 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-const storyLinks = [
-  {
-    text: "The beginning",
-    url: "beginning",
-  },
-  {
-    text: "The middle",
-    url: "midding",
-  },
-  {
-    text: "The now..? ",
-    url: "now",
-  },
-]
-
 const About = () => (
   <Layout>
     <h1>More about B</h1>
