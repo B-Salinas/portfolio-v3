@@ -1,10 +1,10 @@
-import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import * as React from "react";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import * as styles from "../components/index.module.css";
 
 //
 
@@ -28,7 +28,7 @@ const introLinks = [
     url: "mailto:b.salinas397@gmail.com",
   },
   {
-    text: "Resume (Google Doc)",
+    text: "Resume",
     url: "https://docs.google.com/document/d/1tlmk7AwTIvdqatvG3NQtbGvplOkeWa_lBR_bnFkh_dw/edit?usp=sharing",
   },
 ];
@@ -46,7 +46,7 @@ const navLinks = [
     description:
       "Experienced in Mathematics, Full-Stack, Design, Testing & Automation, Research/Teaching and Customer Service.",
   },
-]
+];
 
 // const footerLinks = [
 //   {
@@ -55,7 +55,7 @@ const navLinks = [
 //   },
 // ]
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`;
 
 //
 
@@ -91,7 +91,7 @@ const IndexPage = () => (
 
     {/* NAV LINKS */}
     <ul className={styles.list}>
-      {navLinks.map(link => (
+      {navLinks.map((link) => (
         <li key={link.url} className={styles.listItem}>
           <a
             className={styles.listItemLink}
@@ -105,7 +105,8 @@ const IndexPage = () => (
     </ul>
 
     <p>
-      A proud member of the Hispanic & Queer community, born and raised in Texas 🇲🇽 🏳️‍🌈 🤠
+      A proud member of the Hispanic & Queer community, born and raised in Texas
+      🇲🇽 🏳️‍🌈 🤠
     </p>
 
     {/* FOOTER LINKS */}
@@ -116,13 +117,13 @@ const IndexPage = () => (
       </React.Fragment>
     ))} */}
   </Layout>
-)
+);
 
 /**
  * Head export to define metadata for the page
  *
  * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
  */
-export const Head = () => <Seo title="Home" />
+export const Head = () => <Seo title="Home" />;
 
-export default IndexPage
+export default IndexPage;
