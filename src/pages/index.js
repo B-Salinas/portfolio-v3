@@ -14,6 +14,10 @@ const introLinks = [
     url: "about-b",
   },
   {
+    text: "@",
+    url: "mailto:b.salinas397@gmail.com",
+  },
+  {
     text: "GitHub",
     url: "https://github.com/b-salinas",
     // how do i get it to automatically open in a new tab quietly?
@@ -22,10 +26,6 @@ const introLinks = [
     text: "Linkedin",
     url: "https://www.linkedin.com/in/b-salinas/",
     // same thing as above here
-  },
-  {
-    text: "@",
-    url: "mailto:b.salinas397@gmail.com",
   },
   {
     text: "Resume",
