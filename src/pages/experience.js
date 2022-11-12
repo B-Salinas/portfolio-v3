@@ -1,9 +1,9 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
+import * as styles from "../components/index.module.css";
 
 const experience = [
   {
@@ -52,9 +52,9 @@ const experience = [
   // },
 
   // Research Assistant w Sacolo, BEAM and TAing for Dr. Greene,
-]
+];
 
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
+const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`;
 
 const Experience = () => (
   <Layout>
@@ -63,7 +63,7 @@ const Experience = () => (
       My <a href="https://www.linkedin.com/in/b-salinas"> Linkedin </a> has more
       details. In 2022 alone, I've been a/an..
       <ul className={styles.list}>
-        {experience.map(link => (
+        {experience.map((link) => (
           <li key={link.url} className={styles.listItem}>
             <span
               className={styles.listItemLink}
@@ -79,8 +79,8 @@ const Experience = () => (
     <br />
     <Link to="/">Home</Link>
   </Layout>
-)
+);
 
-export const Head = () => <Seo title="Experience" />
+export const Head = () => <Seo title="Experience" />;
 
-export default Experience
+export default Experience;

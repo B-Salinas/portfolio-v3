@@ -7,7 +7,9 @@
 - Check footer link
 - Change meta data to my information
 - custom domain name instead
+
 ---
+
 - Move Resume link ?
 - Add Contact or @ to footer links ?
 - Different colors instead of Gatsby Purple ?
