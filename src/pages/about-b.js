@@ -1,8 +1,8 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
 const About = () => (
   <Layout>
@@ -14,7 +14,6 @@ const About = () => (
       enjoy designing, automation & testing, and the ethereum blockchain as of
       right now.
     </p>
-    <p> (More to come soon.)</p>
     <br />
     {/* <p>
       I guess I'll start at the beginning. But feel free to skip around, I won't
@@ -23,8 +22,8 @@ const About = () => (
     Use storyLinks later when I figured out how to nest pages!
     <br /> */}
   </Layout>
-)
+);
 
-export const Head = () => <Seo title="About" />
+export const Head = () => <Seo title="About" />;
 
-export default About
+export default About;
