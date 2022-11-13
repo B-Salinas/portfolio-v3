@@ -79,7 +79,7 @@ const IndexPage = () => (
         <b>Important Links:</b>{" "}
         {introLinks.map((link, i) => (
           <React.Fragment key={link.url}>
-            <Link to={link.url} target={"_blank"}>{link.text}</Link>
+            <Link to={link.url} >{link.text}</Link>
             {i !== introLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
