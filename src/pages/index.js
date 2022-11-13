@@ -29,7 +29,7 @@ const introLinks = [
   },
   {
     text: "Resume",
-    url: "../images/resume.pdf",
+    url: "https://docs.google.com/document/d/1tlmk7AwTIvdqatvG3NQtbGvplOkeWa_lBR_bnFkh_dw/edit?usp=sharing",
   },
 ];
 
