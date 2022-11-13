@@ -7,6 +7,7 @@
 - Check footer link
 - Change meta data to my information
 - custom domain name instead
+- Make resume downloadable instead of linking to google docs
 
 ---
 
