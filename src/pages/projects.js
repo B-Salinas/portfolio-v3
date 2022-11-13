@@ -58,7 +58,6 @@ const Projects = () => (
       ))}
     </ul>
     <br />
-    <Link to="/">Home</Link>
   </Layout>
 );
 

@@ -48,12 +48,12 @@ const navLinks = [
   },
 ];
 
-const footerLinks = [
-  {
-    text: "Designed & Built by B",
-    url: "https://github.com/B-Salinas/portfolio-v1",
-  },
-];
+// const footerLinks = [
+//   {
+//     text: "Designed & Built by B",
+//     url: "https://github.com/B-Salinas/portfolio-v1",
+//   },
+// ];
 
 const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`;
 
@@ -106,13 +106,13 @@ const IndexPage = () => (
       A proud member of the Hispanic & Queer community, born and raised in Texas
       🇲🇽 🏳️‍🌈 🤠
     </p>
-    FOOTER LINKS */}
-    {footerLinks.map((link, i) => (
+    {/* FOOTER LINKS */}
+    {/* {footerLinks.map((link, i) => (
       <React.Fragment key={link.url}>
         <a href={`${link.url}${utmParameters}`}>{link.text}</a>
         {i !== footerLinks.length - 1 && <> · </>}
       </React.Fragment>
-    ))}
+    ))} */}
   </Layout>
 );
 

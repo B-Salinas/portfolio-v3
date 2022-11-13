@@ -22,7 +22,6 @@ const About = () => (
     </p>
     Use storyLinks later when I figured out how to nest pages!
     <br /> */}
-    <Link to="/">Home</Link>
   </Layout>
 )
 

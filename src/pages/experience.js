@@ -77,7 +77,6 @@ const Experience = () => (
       </ul>
     </p>
     <br />
-    <Link to="/">Home</Link>
   </Layout>
 );
 
