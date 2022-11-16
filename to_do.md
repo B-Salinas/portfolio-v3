@@ -14,7 +14,9 @@
 
 #### Saturday, Nov 12
 
-- is the spacing still weird on Experiences?
+#### Saturday, Nov 12
+
+- ~~is the spacing still weird on Experiences?~~
 - Link Projects in Experiences Page
 - Link Experience in Projects Page
 - Expand on About Me Page
@@ -27,4 +29,7 @@
 
 - ~~Move Resume link ?~~
 - ~~Add Contact or @ to footer links ?~~
-- ~~Different colors instead of Gatsby Purple ?~~
+  <<<<<<< HEAD
+- # ~~Different colors instead of Gatsby Purple ?~~
+- Different colors instead of Gatsby Purple ?
+  > > > > > > > 4edb9f9039365a4c8114474ea1613127b056bfa4
