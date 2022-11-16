@@ -80,6 +80,7 @@ const IndexPage = () => (
         {introLinks.map((link, i) => (
           <React.Fragment key={link.url}>
             <Link to={link.url}>{link.text}</Link>
+            {/* TO DO: write some script to make the last item bolded (for my resume) */}
             {i !== introLinks.length - 1 && <> · </>}
           </React.Fragment>
         ))}
