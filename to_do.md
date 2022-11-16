@@ -12,7 +12,6 @@
 - fix vertical spacing on ReactFragment unordered list on projects/experiences
 - change experiences section, not a grid, incorporate noticeable dates and in chronological order
 
-#### Saturday, Nov 12
 
 #### Saturday, Nov 12
 
