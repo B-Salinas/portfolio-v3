@@ -29,7 +29,4 @@
 
 - ~~Move Resume link ?~~
 - ~~Add Contact or @ to footer links ?~~
-  <<<<<<< HEAD
-- # ~~Different colors instead of Gatsby Purple ?~~
-- Different colors instead of Gatsby Purple ?
-  > > > > > > > 4edb9f9039365a4c8114474ea1613127b056bfa4
+- ~~Different colors instead of Gatsby Purple ?~~
