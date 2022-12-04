@@ -1,5 +1,4 @@
 import * as React from "react";
-import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Seo from "../components/seo";
@@ -44,6 +43,8 @@ const Projects = () => (
   <Layout>
     <h1>Projects</h1>
     <p>All of my projects, found in one place.</p>
+
+    
     <ul className={styles.list}>
       {projects.map((link) => (
         <li key={link.url} className={styles.listItem}>
